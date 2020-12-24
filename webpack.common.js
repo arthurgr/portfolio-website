@@ -4,7 +4,6 @@ const path = require('path');
 // const { CleanWebpackPlugin } = require('clean-webpack-plugin');
  
 module.exports = {
-  mode: 'development',
   entry: path.resolve(__dirname, './src/index.js'),
   module: {
     rules: [
@@ -53,9 +52,4 @@ module.exports = {
     //   title: 'Output Management',
     // }),
   ],
-  devServer: {
-    contentBase: path.resolve(__dirname, './dist'),
-    hot: true,
-  },
-  devtool: "source-map" //Add this option for source mapping / debugging
 };
