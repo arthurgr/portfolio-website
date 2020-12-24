@@ -1,0 +1,111 @@
+.card1 {
+  position: absolute;
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  will-change: transform;
+  min-width: 110%;
+  min-height: 110%;
+  width: 110%;
+  height: 110%;
+  max-width: 110%;
+  max-height: 110%;
+  background-image: url(../../img/watermark.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+h1#name {
+  color: #fff;
+  line-height: 24px;
+  font-size: 18px;
+  font-weight: 600;
+  &.no-photo {
+      margin-top: -2px
+  }
+}
+
+.subContact {
+  margin-top: 28px;
+  li {
+      font-size: 14px;
+      color: #fff;
+      margin-bottom: 12px;
+      &:last-of-type {
+          margin-bottom: 0;
+      }
+      a {
+          color: inherit !important;
+          text-decoration: none;
+          &:hover {
+              color: #FFF !important;
+              text-decoration: underline;
+          }
+      }
+  }
+}
+
+#side {
+  width: 30%;
+  height: 100%;
+  float: left;
+  text-align: left;
+  position: fixed;
+  left: 0;
+  @media screen and (max-width: 1024px) {
+      width:35%;
+  }
+  @media screen and (max-width: 959px) {
+      width:100%;
+      height: auto;
+      position: relative;
+      float: none;
+  }
+  .inside {
+      padding: 0 56px
+  }
+}
+
+#top {
+  padding: 56px 0;
+  text-align: left;
+  position: relative;
+  z-index: 40;
+  @media screen and (max-width: 415px) {
+    padding: 48px 0;
+  }
+  @media screen and (max-width: 959px) {
+    padding-bottom: 40px !important;
+  }
+}
+
+#profile-pic {
+  width: 96px;
+  height: 96px;
+  margin-bottom: 22px;
+  img {
+      width: 96px;
+      height: 96px;
+      border-radius: 50%;
+  }
+}
+
+#about {
+  margin-top: 20px;
+  font-size: 14px;
+  text-align: left;
+  color: rgba(255,255,255,0.9);
+}
+
+.color-background {
+  background: #3d79f2;
+}
+

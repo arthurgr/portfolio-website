@@ -1,0 +1,154 @@
+#resume {
+    width: 70% !important;
+    float: right;
+    height: 100%;
+    @media screen and (max-width: 1024px) {
+        width: 65% !important;
+    }
+    @media screen and (max-width: 959px) {
+        width: 100% !important;
+        float: none;
+        margin: 0 auto;
+        padding: 0 !important;
+    }
+    @media screen and (max-width: 639px) {
+        width:384px !important;
+    }
+    @media screen and (max-width: 511px) {
+        width:352px !important;
+    }
+    @media screen and (max-width: 415px) {
+        width:288px !important;
+    }
+    @media screen and (max-width: 351px) {
+        width:256px !important;
+    }
+    #main {
+        @media screen and (max-width: 959px) {
+            margin-bottom: 0;;
+            padding-bottom: 73px;
+        }
+        @media screen and (max-width: 415px) {
+            padding-bottom: 57px;
+        }
+        .inside {
+            padding-top: 14px;
+            padding-bottom: 62px;
+        }
+        h2 {
+            font-size: 16px;
+            font-weight: 600;
+        }
+        .list {
+            @media screen and (max-width: 959px) {
+                width: 100%;;
+                max-width: 100%;
+            }
+            ul {
+                margin-top: -8px;
+                li {
+                    margin-top: 21px;
+                    &:not(:first-child) {
+                        margin-top: 28px;
+                    }
+                    a:hover {
+                        text-decoration: underline;
+                    }
+                    h3 {
+                        font-weight: 400;
+                        font-size: 14px;
+                        margin-bottom: 0;
+                        &.title {
+                            // margin-bottom: 4px;
+                            font-weight: 700;
+                            color: rgba(0,0,0,0.88);
+                        }
+                        &.subtitle {
+                            font-weight: 400;
+                            color: rgba(0,0,0,0.88);
+                        }
+                        &.time {
+                            color: rgba(0,0,0,0.64);
+                            .period {
+                                color: rgba(0,0,0,0.4);
+                            }
+                        }
+                        &.location {
+                            color: rgba(0,0,0,0.64);
+                        }
+                    }
+                    .left {
+                        width: 50%;
+                        padding-right: 48px;
+                    }
+                    .right {
+                        width: 50%;
+                        padding-left: 48px;
+                    }
+                    .description {
+                        font-size: 14px;
+                        color: rgba(0,0,0,0.4);
+                        @media screen and (max-width: 959px) {
+                            margin-top: 4px;
+                        }
+                        p {
+                            margin-bottom: 12px;
+                            &:last-of-type {
+                                margin-bottom: 0;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        svg {
+            @media screen and (max-width: 511px) {
+                display: none;
+            }
+        }
+        #skills.list ul li,#contact.list ul li {
+            font-size: 14px;
+            line-height: 20px
+        }
+        #skills.list ul li:not(:first-child),#contact.list ul li:not(:first-child) {
+            margin-top: 12px
+        }
+    }
+}
+
+.skills-icon {
+    width: 16px;
+    height: 15px;
+    float: left;
+    margin-left: -26px;
+    margin-top: 2px;
+}
+
+.experience-icon {
+    width: 16px;
+    height: 16px;
+    float: left;
+    margin-left: -26px;
+    margin-top: 2px;
+}
+
+.education-icon {
+    width: 17px;
+    height: 17px;
+    float: left;
+    margin-left: -27px;
+    margin-top: 1px;
+}
+
+.contact-icon {
+    width: 16px;
+    height: 17px;
+    float: left;
+    margin-left: -26px;
+    margin-top: 0;
+}
+
+.list {
+    max-width: 336px;
+    margin-top: 43px
+}

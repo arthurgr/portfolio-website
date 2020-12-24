@@ -1,0 +1,48 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 20px;
+	background: #fff;
+}
+
+.color, a {
+    color: #3d79f2;
+    fill: #b7b7b7;
+}
+
+.inside {
+    width: 100%;
+    padding: 0 96px;
+    margin: 0 auto;
+    @media screen and (max-width: 959px) {
+        padding: 0 !important;
+        width: 512px !important;
+
+    }
+    @media screen and (max-width: 639px) {
+        width:384px !important;
+    }
+    @media screen and (max-width: 511px) {
+        width:352px !important;
+    }
+    @media screen and (max-width: 415px) {
+        width:288px !important;
+    }
+    @media screen and (max-width: 351px) {
+        width:256px !important;
+    }
+}
+
+h2 {
+    font-size: 14px;
+    font-weight: 400;
+    &#current-position,
+    &#current-location {
+        color: rgba(255,255,255,0.88);
+        margin-top: 4px;
+    }
+}
+
+p {
+    font-weight: 400;
+    color: rgba(0,0,0,0.45);
+}
