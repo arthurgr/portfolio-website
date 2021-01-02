@@ -1,6 +1,7 @@
 import React from 'react';
 import { useSpring, animated } from 'react-spring';
 import './header.scss';
+import img from "../../img/photo.jpg";
 
 const Header = () => {
     const calc = (x, y) => [x - window.innerWidth / 3, y - window.innerHeight / 3];
@@ -12,7 +13,7 @@ const Header = () => {
             <div id="top">
                 <div className="inside">
                     <div id="profile-pic">
-                        <img id="profile-pic-img" src="img/photo.jpg" alt="Photo of Arthur Revelski" />
+                        <img id="profile-pic-img" src={img} alt="Photo of Arthur Revelski" />
                     </div>
                     <h1 id="name">Arthur Revelski</h1>
                     <h2 id="current-position"><b>UI/UX Developer - React JS</b></h2>
