@@ -17,7 +17,7 @@ const Header = () => {
                     <h1 id="name">Arthur Revelski</h1>
                     <h2 id="current-position"><b>UI/UX Developer - React JS</b></h2>
                     <h2 id="current-location"><b>Lakewood, CO</b></h2>
-                    <p>I’m passionate about designing and developing intuitive user interfaces. I enjoy trying out new recipes, exploring the Colorado mountains, and staying active.</p>
+                    <p>I’m passionate about designing and developing intuitive user interfaces. When I'm not learning about Javascript, I enjoy trying out new recipes, exploring the Colorado mountains, and staying active.</p>
                     <ul>
                         <li>
                             <a href="mailto:arevelski@gmail.com" title="Email Arthur" ><b>Email Arthur</b></a>
