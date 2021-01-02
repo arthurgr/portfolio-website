@@ -1,5 +1,6 @@
 import React from 'react';
 import { useSpring, animated } from 'react-spring';
+import classNames from "classnames";
 import './header.scss';
 import img from "../../img/photo.jpg";
 
@@ -9,9 +10,9 @@ const Header = () => {
     const [props, set] = useSpring(() => ({ xy: [0, 0], config: { mass: 10, tension: 550, friction: 140 } }));
     
     return (
-        <div className="color-background container" id="side" onMouseMove={({ clientX: x, clientY: y }) => set({ xy: calc(x, y) })}>
+        <div className={classNames(["color-background","container"])} id="side" onMouseMove={({ clientX: x, clientY: y }) => set({ xy: calc(x, y) })}>
             <div id="top">
-                <div className="inside">
+                <div className={classNames(["inside"])}>
                     <div id="profile-pic">
                         <img id="profile-pic-img" src={img} alt="Photo of Arthur Revelski" />
                     </div>
@@ -19,7 +20,7 @@ const Header = () => {
                     <h2 id="current-position"><b>UI/UX Developer - React JS</b></h2>
                     <h2 id="current-location"><b>Lakewood, CO</b></h2>
                     <p id="about">I’m passionate about designing and developing intuitive user interfaces. I enjoy trying out new recipes, exploring the Colorado mountains, and staying active.</p>
-                    <ul className="subContact">
+                    <ul className={classNames(["subContact"])}>
                     <li>
                         <a href="mailto:arevelski@gmail.com" title="Email Arthur" ><b>Email Arthur</b></a>
                     </li>
@@ -35,7 +36,7 @@ const Header = () => {
                     </ul>
                 </div>
             </div>
-            <animated.div className="card1" style={{ transform: props.xy.interpolate(trans1) }}></animated.div>
+            <animated.div className={classNames(["card1"])} style={{ transform: props.xy.interpolate(trans1) }}></animated.div>
         </div>
     );
 }
