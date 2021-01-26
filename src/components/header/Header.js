@@ -20,16 +20,19 @@ const Header = () => {
                     <p>I’m passionate about designing and developing intuitive user interfaces. When I'm not learning about Javascript, I enjoy trying out new recipes, exploring the Colorado mountains, and staying active.</p>
                     <ul>
                         <li>
-                            <a href="mailto:arevelski@gmail.com" title="Email Arthur" ><b>Email Arthur</b></a>
+                            <a href="mailto:arevelski@gmail.com" title="Email Arthur" rel="noopener"><b>Email Arthur</b></a>
                         </li>
                         <li>
-                            <a href="https://github.com/arthurgr" title="Code Examples" target="_blank"><b>Github</b></a>
+                            <a href="https://github.com/arthurgr" title="Code Examples" target="_blank" rel="noopener"><b>Github</b></a>
                         </li>
                         <li>
-                            <a href="https://dribbble.com/arthurrevelski" title="Design Work" target="_blank"><b>Dribble</b></a>
+                            <a href="https://dribbble.com/arthurrevelski" title="Design Work" target="_blank" rel="noopener"><b>Dribble</b></a>
                         </li>
                         <li>
-                            <a href="https://www.linkedin.com/in/arthur-revelski-75894054/" title="Professional Experience" target="_blank"><b>LinkedIn</b></a>
+                            <a href="https://www.linkedin.com/in/arthur-revelski-75894054/" title="Professional Experience" target="_blank" rel="noopener"><b>LinkedIn</b></a>
+                        </li>
+                        <li>
+                            <a href="Arthur_Revelski_Resume.docx" title="Download Resume" rel="noopener" download><b>Resume</b></a>
                         </li>
                     </ul>
                 </div>

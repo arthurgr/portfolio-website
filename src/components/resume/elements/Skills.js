@@ -18,7 +18,7 @@ const Skills = () => {
             <ul id="skills">
                 <li className={classNames(["skill"])}>
                     <h3 className={classNames(["title"])}>Javascript</h3>
-                    <h3 className={classNames(["subtitle"])}>React / Node / NPM / Webpack / Storybook</h3>
+                    <h3 className={classNames(["subtitle"])}>React / Node / NPM / Webpack / Snowpack / Gulp / Storybook</h3>
                 </li>
             </ul>
             <ul id="skills">
@@ -30,7 +30,7 @@ const Skills = () => {
             <ul id="skills">
                 <li className={classNames(["skill"])}>
                     <h3 className={classNames(["title"])}>Other Languages</h3>
-                    <h3 className={classNames(["subtitle"])}>GIT / PHP / SCSS / SASS / CSS / Linux</h3>
+                    <h3 className={classNames(["subtitle"])}>GIT / PHP / SCSS / SASS / CSS / Linux / Accessibility / HTML5 Semantic Elements</h3>
                 </li>
             </ul>
             <ul id="skills">
@@ -48,7 +48,7 @@ const Skills = () => {
             <ul id="skills">
                 <li className={classNames(["skill"])}>
                     <h3 className={classNames(["title"])}>Design Tools</h3>
-                    <h3 className={classNames(["subtitle"])}>Adobe XD / Photoshop / Illustrator / Sketch</h3>
+                    <h3 className={classNames(["subtitle"])}>Adobe XD / Photoshop / Illustrator / Sketch / Figma</h3>
                 </li>
             </ul>
         </section>

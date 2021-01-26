@@ -17,10 +17,11 @@ const Contact = () => {
             </svg>
             <h2 className={classNames(["resumeSection","color"])}>Contact</h2>
             <ul className={classNames(["contact"])}>
-                <li><a className={classNames(["color"])} href="mailto:arevelski@gmail.com"><b>Email Arthur</b></a></li>
-                <li><a className={classNames(["color"])} href="https://github.com/arthurgr" target="_blank"><b>Github</b></a></li>
-                <li><a className={classNames(["color"])} href="https://dribbble.com/arthurrevelski" target="_blank"><b>Dribble</b></a></li>
-                <li><a className={classNames(["color"])} href="https://www.linkedin.com/in/arthur-revelski-75894054/" target="_blank"><b>LinkedIn</b></a></li>
+                <li><a className={classNames(["color"])} href="mailto:arevelski@gmail.com" rel="noopener"><b>Email Arthur</b></a></li>
+                <li><a className={classNames(["color"])} href="https://github.com/arthurgr" target="_blank" rel="noopener"><b>Github</b></a></li>
+                <li><a className={classNames(["color"])} href="https://dribbble.com/arthurrevelski" target="_blank" rel="noopener"><b>Dribble</b></a></li>
+                <li><a className={classNames(["color"])} href="https://www.linkedin.com/in/arthur-revelski-75894054/" target="_blank" rel="noopener"><b>LinkedIn</b></a></li>
+                <li><a className={classNames(["color"])} href="Arthur_Revelski_Resume.docx" target="_blank" rel="noopener" download><b>Resume</b></a></li>
             </ul>
         </section>
     );
