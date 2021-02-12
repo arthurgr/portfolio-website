@@ -1,7 +1,6 @@
 import React from 'react';
 import Header from './components/header/Header';
 import Resume from './components/resume/Resume';
-import Clearfix from './components/utilities/clearfix/Clearfix';
 import classNames from "classnames";
 import ReactGA from 'react-ga';
 import './components/utilities/scss/reset.scss'
@@ -17,14 +16,10 @@ const App = () => {
                 <div id="main">
                     <div className={classNames(["inside"])}>
                         <Resume />
-                        <Clearfix />
                     </div>
-                    <Clearfix />
                 </div>
             </div>
-            <Clearfix />
         </>
-
     );
 }
 
