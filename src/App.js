@@ -12,7 +12,7 @@ const App = () => {
     return (
         <>
             <Header />
-            <div id="resume">
+            <div id="content">
                 <div id="main">
                     <div className={classNames(["inside"])}>
                         <Resume />
